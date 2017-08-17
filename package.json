@@ -1,0 +1,23 @@
+{
+    "name": "local_serve_web",
+    "version": "1.0.0",
+    "description": "local_serve_web",
+    "main": "local_serve_web.js",
+    "scripts": {
+        "start": "node local_serve_web.js"
+    },
+    "keywords": [
+        "jsdom",
+        "jquery"
+    ],
+    "author": "Leo",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "jsdom": "*",
+        "jquery": "*",
+        "iconv-lite": "*",
+        "superagent": "*",
+        "superagent-charset": "*",
+        "child_process": "*"
+    }
+}
