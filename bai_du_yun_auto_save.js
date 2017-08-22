@@ -32,8 +32,8 @@ var step = 3;
 var server = http.createServer(function (request, response) {
     console.log(request.method + ': ' + request.url);
     var fileName = request.url.split("/")[1];
-
-    if (current_link_no > link_list.length){
+    console.log('current current_link_no %d', current_link_no);
+    if (current_link_no >= link_list.length){
         response.writeHead(200);
         response.end('5');
     }
